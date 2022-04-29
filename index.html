@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet"/>
+  <link rel="icon" type="image/x-icon" href="img/question.png">
+  <title>Guessing game</title>
+</head>
+<body>
+  
+  <h1>What number am I thinking? 💬</h1>
+  <h3>Guess 3 numbers between 0 and 9</h3>
+  <p>🔍 Check the console for clues</p>
+  <input class="guess" id="1" type="number"/>
+  <input class="guess" id="2" type="number"/>
+  <input class="guess" id="3" type="number"/>
+  <button id="btn" onclick="attemptSecretNumber()">Try to guess!</button>
+
+  <h4>Attempts: <span id="attempts-user">0</span></h4>
+  <ol>
+  </ol>
+
+  <script src="index.js"></script>
+</body>
+</html>
